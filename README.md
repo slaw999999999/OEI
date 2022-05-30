@@ -4,4 +4,4 @@ Kompilowanie pythona(notatników jupyter notebook) online:
 
 https://jupyter.org/try-jupyter/lab/
 
-Po wejściu w link należy pobrać i wysłać pliki .ipynb z repozytorium na domene.
+Po wejściu w link należy pobrać pliki .ipynb z repozytorium i wysłać na domene.
