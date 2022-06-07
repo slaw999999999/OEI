@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.10)  30 MAY 2022 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.10)  4 JUN 2022 22:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -486,8 +486,49 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@toc=\write4
 \openout4 = `"Praca zaliczeniowa (1).toc"'.
 
- [2] [3] [4] [5] [6] [7] [8] [9]
+ [2]
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
+ []
+
+[3]
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <10> on input line 62.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <7> on input line 62.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <5> on input line 62.
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+[5] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+[8] [9] 
 AED: lastpage setting LastPage
 [10] (Praca zaliczeniowa (1).aux)
 Package rerunfilecheck Info: File `"Praca zaliczeniowa (1)".out' has not change
@@ -495,22 +536,33 @@ d.
 (rerunfilecheck)             Checksum: 745200B3CA9F25AF4E3A9EF672B96CE3;736.
  ) 
 Here is how much of TeX's memory you used:
- 9899 strings out of 478659
- 155790 string characters out of 2845920
- 450890 words of memory out of 3000000
- 27854 multiletter control sequences out of 15000+600000
- 415023 words of font info for 60 fonts, out of 8000000 for 9000
+ 9940 strings out of 478659
+ 156245 string characters out of 2845920
+ 454890 words of memory out of 3000000
+ 27883 multiletter control sequences out of 15000+600000
+ 423002 words of font info for 85 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,63p,274b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plrm.enc}<C:
-/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plbx10.pfb><C:
-/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plbx12.pfb><C:
-/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr10.pfb><C:/
-Users/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr12.pfb><C:/U
-sers/Admin/AppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr17.pfb>
-Output written on "Praca zaliczeniowa (1).pdf" (10 pages, 57462 bytes).
+ 60i,6n,63p,440b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plmi.enc}{C:
+/Users/Admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plsc.enc}{C:/User
+s/Admin/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plme.enc}{C:/Users/Adm
+in/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plms.enc}{C:/Users/Admin/Ap
+pData/Local/Programs/MiKTeX/fonts/enc/dvips/pl/plrm.enc} <C:\Users\Admin\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/Admin/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plbx10.pfb><C:/Users/Admin/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plbx12.pfb><C:/Users/Admin/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plex10.pfb><C:/Users/Admin/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi10.pfb><C:/Users/Admin/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/pl/plmi5.pfb><C:/Users/Admin/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/pl/plr10.pfb><C:/Users/Admin/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/pl/plr12.pfb><C:/Users/Admin/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/pl/plr17.pfb><C:/Users/Admin/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/pl/plr5.pfb><C:/Users/Admin/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/pl/plr7.pfb><C:/Users/Admin/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/pl/plsy10.pfb>
+Output written on "Praca zaliczeniowa (1).pdf" (10 pages, 104936 bytes).
 PDF statistics:
- 120 PDF objects out of 1000 (max. 8388607)
+ 159 PDF objects out of 1000 (max. 8388607)
  12 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

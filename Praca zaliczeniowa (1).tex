@@ -39,6 +39,13 @@
 	\subsection*{Rozwiązanie zadania w Python:}
 	\href{https://github.com/slaw999999999/OEI/blob/main/Zadanie1.ipynb}{Rozwiązanie zadania 1 Python}
 	
+	Okres zwrotu to okres, po którym zysk z poniesionej inwestycji pokrył poniesione koszty. Innymi słowy: Jest to okres, po któym inwestycja zaczyna "na siebie zarabiać". \newline
+	
+	
+	
+	W zadania do ocenie zostały poddane 3 inwestycje.	
+	 Najkorzystniejszą okazała się być inwestycja pierwsza, która zwróciła się po 8 latach. Drugą najkorzystniejszą okzała się być inwestycja druga zwracja się po 9 latach, zaś trzecia najmniej najkorzystna z okresem zwrotu aż 10 lat.
+	
 	
 	
 	\newpage
@@ -52,6 +59,26 @@
 	\subsection*{Rozwiązanie zadania w Python:}
 	\href{https://github.com/slaw999999999/OEI/blob/main/Zadanie1.ipynb}{Rozwiązanie zadania 2 Python}
 	
+	Celem zadania było dokonanie wyboru najbardziej opłacalnego projektu spośród 4 projektów: P1, P2, P3 P4, przy stopie dyskontowej $15\%$. \newline
+	
+	\textbf{Wartości bieżącej netto (NPV) jest to suma przepływów pieniężnych netto zdyskontowanych
+	oddzielnie dla każdego okresu, wygenerowanych w całym ekonomicznym cyklu życia rozważanej
+	inwestycji, przy stałym poziomie stopy dyskontowej.}
+
+	Po wykonaniu niezbędnych obliczeń ranking najkorzystniejszych inwestycji przedstawił się nastepująco:
+	\begin{itemize}
+		\item 
+		P3 - NPV = 7369.30 
+		\item 
+		P1 - NPV = 7073.08
+		\item
+		P2 - NPV = 6962.25
+		\item 
+		P4 - NPV = 5841.19
+		
+	\end{itemize}
+	
+	Widzimy, że najkorzystniejszą inwestycją okazuje się być inwestycja numer 3.
 	\newpage
 	\addcontentsline{toc}{section}{Zadanie 3}
 	\section*{Zadanie 3}
@@ -62,6 +89,19 @@
 	
 	\subsection*{Rozwiązanie zadania w Python:}
 	\href{https://github.com/slaw999999999/OEI/blob/main/Zadanie1.ipynb}{Rozwiązanie zadania 3 Python}
+	
+	Celem zadania było wyznaczenie wewnętrzenj stopy zwrotu inwestycji.\newline
+	
+	\textbf{Wewnętrzna stopa zwrotu to stopa dyskontowa, dla której
+		zachodzi równość pomiędzy wartością zaktualizowaną wydatków pieniężnych a wartością zaktualizowaną
+		wpływów pieniężnych. Jest to więc taka stopa procentowa, dla której wartość bieżąca netto ocenianej
+		inwestycji jest równa zero.}
+	
+	Schemat rozwiązania był następujący. Pierwsze zostały wyznaczone 2 stopy procentowe, dla których NPV inwestycji jest bbliskie 0. Przy czym dla pierwszej NPV ujemne, a dla drugiej dodatnie.\newline
+	
+	Po wyznaczeniu odpowiednich $r_1$ i $r_2$ ostateczny rezultat został obliczony ze wzrou na IRR:
+	
+	$$ IRR = R1 + \frac{NPV_1\cdot(R2-R1)}{NPV_1-NPV_2}= 0.0904 $$ 
 	
 	\newpage
 	\addcontentsline{toc}{section}{Zadanie 4}
@@ -74,6 +114,29 @@
 	\subsection*{Rozwiązanie zadania w Python:}
 	\href{https://github.com/slaw999999999/OEI/blob/main/Zadanie1.ipynb}{Rozwiązanie zadania 4 Python}
 	
+	W zadaniu zostały przedstawione 3 projekty inwestycyjne. Cel zadania skupiał się naocenie które z projektów powinny być przyjęte do realizacji, przy założeniach, że:
+	
+	\begin{itemize}
+		\item
+		 r= $14\%$
+		\item
+		 Firma może zainwestować 1000zł.	
+	\end{itemize}
+	
+	
+	Analiza opłącalności iwnestycji została przeprowadzona ponownie za pomocą NPV, z tą różnicą, że na końcu został odjęty wkłąd pieniężny firmy w inwestycję.
+	
+	Po wykonaniu niezbędnych obliczeń ranking najkorzystniejszych inwestycji przedstawił się nastepująco:
+	\begin{itemize}
+		\item 
+		P3 - NPV = 675.2373
+		\item 
+		P2 - NPV = -214.3390
+		\item
+		P1 - NPV = -745.9295
+	\end{itemize}
+
+	Zwróćmy uwagę na to, że jedyną inwestycją z dodatnią wartością NPV jest inwestycja numer 1. Oznacza to, że jako jedyna jest inwestycją korzystną. Pozostałe mają wartości ujemne, więc należy  je odrzucić.
 	\newpage
 	\addcontentsline{toc}{section}{Zadanie 5}
 	\section*{Zadanie 5}
@@ -85,6 +148,29 @@
 	\subsection*{Rozwiązanie zadania w Python:}
 	\href{https://github.com/slaw999999999/OEI/blob/main/Zadanie1.ipynb}{Rozwiązanie zadania 5 Python}
 	
+	Celem zadania było ocenic opłacalność 2 inwestycji za pomocą metody MIRR, przy założeniach:
+	
+	\begin{itemize}
+		\item 
+		stopa
+		dyskontowa = 
+		$14 \%$,
+		
+		\item 
+		stopa
+		reinwestycji = 
+		$8 \%$
+	\end{itemize}
+
+	\textbf{MIRR (ang. Modified Internal Rate of Return) - czyli zmodyfikowana wewnętrzna stopa zwrotu, to dynamiczna metoda oceny efektywności ekonomicznej projektów inwestycyjnych, a także wskaźnik finansowy, wyznaczony w oparciu o tę metodę. Uwzględnia ona zmiany wartości pieniądza w czasie i jest oparta o analizę zdyskontowanych przepływów pieniężnych.}\newline 
+	
+	Pierwsze należało policzyć sumę wszystkich dodatnich i ujemnych przepływów pieniężnych. Dla dodatnich przepływow pieniężnych kolejne sumy były dodawane z uwzględnieniem stopy reinwestycji, zaś ujemnych stopy dyskontowej. Ostatecznie przy użyciu wzoru:
+	
+		$$ MIRR_1 = \left(\frac{PLUS_1}{-MINUS_1}\right)^{\frac{1}{n}}-1 = 0.0746 $$
+		
+		$$ MIRR_2 = \left(\frac{PLUS_2}{-MINUS_2}\right)^{\frac{1}{n}}-1 = 0.0701 $$
+	
+	Otrzymujemy, że bardziej korzystną inwestycją jest inwestycja pierwsza.
 	\newpage
 	\addcontentsline{toc}{section}{Zadanie 6}
 	\section*{Zadanie 6}
@@ -96,6 +182,20 @@
 	\subsection*{Rozwiązanie zadania w Python:}
 	\href{https://github.com/slaw999999999/OEI/blob/main/Zadanie1.ipynb}{Rozwiązanie zadania 6 Python}
 	
+	
+	 Cel zadania skupiał się wokół wyznaczenia ilościowego progu rentowności \newline
+	 	 
+	 \textbf{Wskaźnik rentowności (PI – ang. Profitability Index) jest to iloraz sumy zdyskontowanych dodatnich
+	 	przepływów pieniężnych netto do wartości bezwzględnej sumy zdyskontowanych ujemnych przepływów
+	 	pieniężnych netto.}\newline
+ 	
+  	Po wykonaniu niezbędnych rachunków we wzorze:
+  	
+  		$$Rentownosc = \frac{KosztyProd}{CenaJedn-JednKosztZmien} $$
+  		
+  	Okazało się, że ilościowa rentowność wynosi 148 sztuk. Oznacza to, że firma musi wyprodukować minimalnie 148 sztuk, żeby nie byc stratną na produkcji.
+ 	
+ 	
 	\newpage
 	\addcontentsline{toc}{section}{Zadanie 7}
 	\section*{Zadanie 7}
@@ -107,6 +207,30 @@
 	\subsection*{Rozwiązanie zadania w Python:}
 	\href{https://github.com/slaw999999999/OEI/blob/main/Zadanie1.ipynb}{Rozwiązanie zadania 7 Python}
 	
+	Celem zadania było ocenić opłacalność dwóch inwestycji za pomocą NPV przy podejściu probabilistycznym. Założenia:
+	\begin{itemize}
+		\item 
+		stopa
+		dyskontowa = 
+		$11 \%$,
+		
+		\item 
+		nakładów inwestycyjnych =  5710
+	\end{itemize}
+		
+		Pierwsze niezbędne było wyznaczenie wartości oczekiwanych dla dwóch iwnestycji. Następnie ich wariancji.
+		
+		Posiadając wartości wyżej wymienionych parametrów dla obydwu inwestycji oszacowane zostały wartości probabilistyczne NPV:
+		
+		\begin{itemize}
+			\item 
+			P1 - NPV probabilistyczne: 146.3837	
+			\item 
+			P2 - NPV probabilistyczne wynosi: -275.7426
+		\end{itemize}
+			
+		Okazało się, że najkorzystniejszą inwestcją jest inwestycja pierwsza
+	
 	\newpage
 	\addcontentsline{toc}{section}{Zadanie 8}
 	\section*{Zadanie 8}
@@ -117,4 +241,13 @@
 	
 	\subsection*{Rozwiązanie zadania w Python:}
 	\href{https://github.com/slaw999999999/OEI/blob/main/Zadanie1.ipynb}{Rozwiązanie zadania 8 Python}
+	
+	Opłacalność inwestcji została oszacowana przy pomocy trzech różnych sposobów.
+	\begin{itemize}
+		\item 
+		Pierwszy sposób to ocena po ilu latach iwnestycja się zwróci o raz czy wogóle się zwróci. Przy początkowej inwestycji okazało się, że inwestycja sie nie zwróci i jest nieopłacalna, zaś przy nakładzie 10 000 inwestycja zacznie być opłącalna dopiero po 14 latach.	
+		\item 
+		Drugim sposobem było użycie NPV. Przy stopie dyskontowej wynoszącej $5\%$ inwestycja okazała się być opłacalną. Całość przebiegu inwestycji została zwizualizowana graficznie.
+	\end{itemize}
+
 \end{document}
